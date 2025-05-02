@@ -1,0 +1,136 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6fa;
+  color: #030303;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.login-logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+  transform: scale(1.4); /* visually makes it bigger */
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.login-btn img {
+  width: 18px;
+  height: 18px;
+}
+
+.google {
+  background-color: #2a83c3 !important;
+  color: #ffffff;
+}
+
+.apple {
+  background-color: #2a83c3 !important;
+  color: #ffffff;
+}
+
+.login-btn:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+
+.or-divider {
+  margin: 16px 0;
+  position: relative;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.or-divider::before,
+.or-divider::after {
+  content: "";
+  height: 1px;
+  background-color: #ccc; /* Lighter for visibility */
+  position: absolute;
+  top: 50%;
+  width: 40%;
+}
+
+.or-divider::before {
+  left: 0;
+}
+
+.or-divider::after {
+  right: 0;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.email-btn {
+  width: 100%;
+  background-color: #1b6faf;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.signup-text {
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 15px;
+}
+
+.signup-text .link {
+  color: #1775b8;
+  cursor: pointer;
+}
+
+.google-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  object-fit: contain;
+}
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  color: #030303;
+  font-family: 'Segoe UI', sans-serif;
+}

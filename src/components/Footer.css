@@ -1,0 +1,36 @@
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+  font-size: 14px;
+  margin-top: 40px; /* Adds some space above footer */
+}
+
+.footer p {
+  margin-bottom: 10px; /* Adds space between the text and the links */
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adds space between the links */
+  flex-wrap: wrap; /* Ensures links wrap on smaller screens */
+}
+
+.footer-links a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+  text-decoration: underline;
+  color: #007bff;
+}
+
+@media (max-width: 600px) {
+  .footer-links {
+    flex-direction: column; /* Stacks links vertically on small screens */
+    align-items: center; /* Centers the links */
+  }
+}
